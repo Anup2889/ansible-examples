@@ -1,6 +1,6 @@
 ---
 - name: Install WordPress, MariaDB, Nginx, and PHP-FPM
-  hosts: wordpress-server
+  hosts: 10.48.148.168
   remote_user: root
   # remote_user: user
   # sudo: yes
