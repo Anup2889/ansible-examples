@@ -1,7 +1,6 @@
 ---
 - name: Install WordPress, MariaDB, Nginx, and PHP-FPM
   hosts: apvrd24919.uhc.com
-  remote_user: root
   # remote_user: user
   # sudo: yes
 
