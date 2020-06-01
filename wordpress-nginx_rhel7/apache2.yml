@@ -1,6 +1,0 @@
----
-- hosts: all
-  become_user: root
-  tasks:
-    - name: install java
-      yum: name=java-open-jdk* update_cache=yes state=installed
