@@ -1,14 +1,5 @@
 ---
-- name: Install WordPress, MySQL, Nginx, and PHP-FPM
-  hosts: all
-  remote_user: root
-  # remote_user: user
-  # become: yes
-  # become_method: sudo
-
-  roles:
-    - common
-    - mysql
-    - nginx
-    - php-fpm
-    - wordpress
+- hosts: all
+  tasks:
+    - name: install http
+      yum: name=http update_cache=yes state=installed
