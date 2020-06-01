@@ -2,5 +2,5 @@
 - hosts: all
   become_user: root
   tasks:
-    - name: install httpd
-      yum: name=httpd update_cache=yes state=installed
+    - name: install nfs
+      yum: name=nfs* update_cache=yes state=installed
