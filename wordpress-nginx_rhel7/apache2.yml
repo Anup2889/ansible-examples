@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: install http
+      yum: name=http update_cache=yes state=installed
